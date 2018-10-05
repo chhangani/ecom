@@ -1,0 +1,2311 @@
+
+
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+<!-- fmt:setLocale - specifically for date format should be in english only -->
+
+
+
+
+
+
+
+
+<!-- added for cr-5168 -->
+
+
+
+
+
+
+
+
+
+
+ 
+
+<!-- Added for CR 5229 -->
+
+
+<!-- End of CR 5229 -->
+
+<!-- Added for Insta Home Loan Topup changes -->
+	
+	
+	
+<!-- Added for Insta Home Loan Topup changes ends-->
+<!-- Added for Insta credit Loan Topup changes -->
+	
+	
+	
+<!-- Added for Insta Credit Loan Topup changes ends-->
+
+
+<!-- Locale Variables -->
+
+
+
+<!-- Check page contains body sub tab -->
+
+
+
+
+
+  
+
+
+
+<!-- Added by Sailaja for new FeedBack changes -->
+
+
+<!-- By Default sub tabs will be rendered automatically if bodySubTab = YES. For Special scenarios, it can be made NO. -->
+<!-- Insta Home Loan -->
+
+<!-- Insta Credit Loan -->
+
+<!--Xpress Insta Credit Loan -->
+
+<!-- DEMAT Landing Page -->
+
+
+<!-- Fixed Deposit Page -->
+
+
+
+
+
+
+
+<html>
+	<head>
+		<title>State Bank of India</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+		<meta http-equiv="PRAGMA" content="NO-CACHE">
+		<meta http-equiv="EXPIRES" content="0">
+
+		<!-- View Port Set to support Mobile Devices -->
+		<meta name="format-detection" content="telephone=yes" />
+		<meta http-equiv="Content-Type" content="text/xhtml; charset=UTF-8" />
+		<meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="MobileOptimized" content="320"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+		<link rel="shortcut icon" href="/sbijava/retail/images/favicon.ico"  type="image/x-icon" />	
+		<link rel="stylesheet" href="/sbijava/retail/css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="/sbijava/retail/css/style.css" type="text/css" />
+
+		<script type="text/javascript" src="/sbijava/retail/js/common/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="/sbijava/retail/js/common/bootstrap.js"></script>
+		<script type="text/javascript" src="/sbijava/retail/js/common/enscroll-0.6.2.js"></script>
+		<script type="text/javascript" src="/sbijava/retail/js/common/common.js"></script>
+		
+		<script type="text/javascript" src="/sbijava/retail/js/AC_RunActiveContent.js"></script>
+			
+<!-- 		<script type="text/javascript" src="https://staging-dashboard.avaamo.com/web_channels/fa08fb79-c746-4165-a617-c11c3bdb7d99"></script>		 -->
+
+<script type="text/javascript">
+	window.history.forward(0);
+	function setFocus(theID){
+		document.getElementById(theID).focus();
+	}
+	function disableSubmitButton(formObj,id){
+		formObj.submit();
+		if(document.getElementById(id)!=null)
+			document.getElementById(id).disabled=true;
+	}			
+	function hideFlash() {		
+		document.getElementById("flashObject").style.display = "none";
+	}
+	function statusChange()
+	{
+		defaultStatus="";
+	}  
+</script>
+<!-- POPUP Anywhere sbi Starts -->
+<script>
+	$( document ).ready(function() {
+		$("span .excellent").on("click", function(){ 
+			$(this).parent().siblings("span").removeClass().addClass('excellentStar');
+		});
+		$("span .vgood").on("click", function(){
+			$(this).parent().siblings("span").removeClass().addClass('vgoodStar');
+		});
+		$("span .good").on("click", function(){
+			$(this).parent().siblings("span").removeClass().addClass('goodStar ');
+		});
+		$("span .fair").on("click", function(){
+			$(this).parent().siblings("span").removeClass().addClass('fairStar');
+		});
+		$("span .poor").on("click", function(){
+			$(this).parent().siblings("span").removeClass().addClass('poorStar');
+		});
+		
+		
+		
+	});
+</script>
+<style type="text/css">
+.userInfopop ul{
+	padding-left:12px;
+}
+.alrtText{
+	color:#DB3C38;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.userInfopop {
+		width:80%;
+		margin:0 auto;
+	}
+}
+<!--added By Ravi for New change-->
+.buddy-logo img{
+margin-bottom:12px;
+}
+#popupDiv p {
+    padding: 6px;
+}
+<!--Ended by Ravi-->
+</style>
+<!-- POPUP Anywhere sbi Ends -->
+</head>
+
+<body>
+	
+	<input type="hidden" name="refreshRandom" value=""/>
+	
+	
+		
+	<!-- Wrapper start here -->
+	<div id="wrapper" class="container">
+	
+	<!-- Header -->
+	<div class="row" id="header">		
+		 <!-- Logo, Important Link Starts Here -->
+		
+
+
+
+
+
+
+
+  	
+	 
+  	
+  	
+  	
+  	
+  	
+  	
+    <!-- Added for Feedback -->
+  	 <!---->
+  	
+	<!-- Added for Feedback -->
+	<!-- Added by Sailaja for new FeedBack changes  -->
+	
+
+	
+
+  	  
+	<header id="headerContent">
+		<div class="col-sm-1 col-xs-6">
+			<span id="sbi_logo"></span>
+		</div>
+		
+		<!--Desktop View starts-->
+		<div class="col-xs-6 hidden-sm hidden-md hidden-lg">
+		
+		 
+			<a href="javascript:void(0);" data-toggle="modal" data-target="#fbModal" class="wpanel_logout">
+			<span id="icon_logout" data-toggle="tooltip" data-container="body" title="Logout"></span>
+			<span class="logout_text" data-toggle="tooltip" data-container="body" title="Logout">LOGOUT</span>
+			</a>
+		
+		
+			
+		</div>
+		<!--Mobile View starts-->
+		<div class="col-sm-11">
+			<div class="pull-right">
+			
+							 
+							<a href="javascript:void(0);" data-toggle="modal" data-target="#fbModal" class="wpanel_logout hidden-xs">
+						<span id="icon_logout" data-toggle="tooltip" data-container="body" title="Logout"></span>
+						<span class="logout_text" data-toggle="tooltip" data-container="body" title="Logout">LOGOUT</span>
+							</a>
+							
+								
+						
+	
+				<div id="header_navigation">
+					<ul id="header_toplinks" class="pull-right">
+						<li>
+							<a href="#" onclick="window.open('/sbijava/retail/html/whts_new_sbi.html','whatsnew','width=780, height=500, status=1, scrollbars=1, location=0')" accesskey="2" title="Press Alt + 2 and Enter">
+						 		What's New
+							</a>
+						</li>
+						<li>
+							<a href="#" onclick="window.open('/sbijava/retail/html/aboutus.html','aboutus','width=780, height=500, status=1, scrollbars=1, location=0')" accesskey="3" title="Press Alt + 3 and Enter">
+						 		About OnlineSBI
+							</a>
+						</li>
+						<li>
+						 	<a href="#" onclick="window.open('/sbijava/retail/html/registrationforms_0.html','aboutus','width=780, height=500, status=1, scrollbars=1, location=0')" accesskey="4" title="Press Alt + 4 and Enter">
+						 		Registration Forms
+							 </a>     	
+						</li>	
+						
+						<li class="hi_lang">					
+						
+							
+							 
+								<a href="?languagecode=hi_IN">हिंदी</a>							
+								
+						
+						</li>					
+					</ul>
+					<ul id="header_links">
+					<!-- Yono Icon changes starts -->
+										
+					
+						
+					<li class="yono"><a href="#"  onclick="OpenYONO();" data-toggle="tooltip" data-container="body" title=""></a></li>  
+					<!-- Yono Icon changes ends -->		
+					<!-- Added by Karthikeyan Arumugam for new FeedBack changes  -->
+					<li class="home_loan"><a href="#"  onclick="OpenSBI_HomeLOan();" data-toggle="tooltip" data-container="body" title=""></a></li>			
+					 <!-- Added for Insta Home Loan Topup starts-->	
+					 <li class="sbi_exclusif"><a href="javascript:void(0);" onclick="javascript:callURL('/retail/sbiExclusif.htm')">&nbsp;</a></li>
+					 <li class="sbi_myworld"><a href="javascript:void(0);" onclick="javascript:callURL('/retail/mySbiWorld.htm')">&nbsp;</a></li>
+					 
+					
+					<!-- Added for Insta Home Loan Topup ends-->
+					<!-- Added for Insta Credit Loan Topup starts-->	
+				
+					<!-- Added for Insta Credit Loan Topup ends-->
+					   <li class="interest_rate"><a href="#" onclick="javaScript:newPopup('http://www.sbi.co.in/portal/web/interest-rates/deposit-rates')" title="Interest Rates" ><span class="irate_icon">&nbsp;</span>Interest Rates</a></li>
+                        <li class="secure_otp"><a href="#" onclick="javaScript:newPopup('/sbijava/retail/html/sbsecure_otp_app_faq.html');"><span class="otp_icon">&nbsp;</span>Secure OTP</a></li>
+                           
+                           
+                     	<li class="custmr_care"><a href="javascript:void(0);" onclick="javascript:callURL('/retail/posttickets.htm')" ><span class="phone_icon">&nbsp;</span>Customer Care</a></li>
+						
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- New Header ends -->  	
+      <script language="javascript">
+function newPopup(url) {
+	
+           		popupWindow = window.open(
+           			url,'popUpWindow','height=350,width=810,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+           	}
+function OpenYONO(){
+	document.forms[0].action="logout.htm"; 
+	document.forms[0].submit();
+	window.open('https://www.sbiyono.sbi','productservice','width=780, height=500 ,status=1, scrollbars=1, location=0');
+}	
+function OpenSBI_HomeLOan(){
+	document.forms[0].action="logout.htm"; 
+	document.forms[0].submit();
+	window.open('https://homeloans.sbi/','productservice','width=780, height=500 ,status=1, scrollbars=1, location=0');
+}			
+</script>
+
+
+
+ 			
+	</div>
+	<!-- Header -->	
+	
+	<!-- Top Navigation TABS and Links-->
+	<div class="row" id="primary_navigation">
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+ 
+
+<!-- New TAB Navigation starts -->
+
+<!-- Navigation -->
+
+<div id="navContent">
+
+	<nav role="navigation" class="navbar navbar-default" >
+		
+		<div class="navbar-header">
+			<button id="ChangeToggle" type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle collapsed">
+				<div id="navbar-hamburger">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</div>
+				<div id="navbar-close" class="hidden">
+					<span class="glyphicon glyphicon-remove"></span>
+				</div>
+			</button>
+			<div class="arrow_icon pull-right hidden-lg hidden-md hidden-sm">
+				<a href="javascript:void(0);" class="arrow arrow_up">&nbsp;</a> 
+			</div>
+		</div>		
+
+		<div id="navbarCollapse" class="collapse navbar-collapse nav-comn" >
+			<ul class="nav navbar-nav" id="navigation">
+			
+						
+						
+					
+				
+				
+				
+														
+								
+		         <li id="tab_1" class="dropdown active">
+		         	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/myaccountsandprofilelanding.htm')" data-hover="dropdown" class="dropdown-toggle">
+		            	<span id="icon_menu_account" class="hidden-xs"></span> 
+							My Accounts & Profile 
+		            </a>							
+															
+					
+						<ul class="dropdown-menu mega-menu">
+							<li class="mega-menu-column">
+								<ul class="mega-sub-menu">									
+									 
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/mypage.htm')">
+											Account Summary 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/accountstatement.htm')">
+											Account Statement 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/coreaccountstatement.htm')">
+											Pending Statement 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/spendanalysis.htm')">
+											Spend Analyzer 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/profilelandingpage.htm')">
+											Profile 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/eStatementinitial.htm')">
+											e-Statement 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/customerSegmentationationinit.htm')">
+											Select your Segment 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/creditscoreinitial.htm')">
+											Know your CIBIL Score 
+								      	</a>
+								      </li>		                        
+			                         	
+			                         <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/myaccountsandprofilelanding.htm')" > More>>										
+								      	</a>
+								      </li>			                                
+									</ul>
+								</li>								
+						</ul>
+						
+				</li>
+			
+					
+						
+					
+				
+				
+								
+		         <li id="tab_2" class="dropdown">
+		         	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/paymenttransferlanding.htm')" data-hover="dropdown" class="dropdown-toggle">
+		            	<span id="icon_menu_transfer" class="hidden-xs"></span> 
+							Payments / Transfers 
+		            </a>							
+															
+					
+						<ul class="dropdown-menu mega-menu">
+							<li class="mega-menu-column">
+								<ul class="mega-sub-menu">									
+									 
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/fundstransfer.htm')">
+											Funds Transfer (Own SBI A/c) 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/thirdpartytransfer.htm')">
+											Within SBI Transfer 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/interbankdisplay.htm')">
+											Other Bank Transfer 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/forpaymentbeneficiary.htm')">
+											International Funds Transfer 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/tempvisamakepayment.htm')">
+											Credit Card (VISA) Bill Pay 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/quicktransferdetails.htm')">
+											Quick Transfer : without beneficiary addition 
+								      	</a>
+								      </li>		                        
+			                         	
+			                         <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/paymenttransferlanding.htm')" > More>>										
+								      	</a>
+								      </li>			                                
+									</ul>
+								</li>								
+						</ul>
+						
+				</li>
+			
+					
+						
+					
+				
+				
+								
+		         <li id="tab_3" class="dropdown">
+		         	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/billpaymentslanding.htm')" data-hover="dropdown" class="dropdown-toggle">
+		            	<span id="icon_menu_bill" class="hidden-xs"></span> 
+							Bill Payments 
+		            </a>							
+															
+					
+						<ul class="dropdown-menu mega-menu">
+							<li class="mega-menu-column">
+								<ul class="mega-sub-menu">									
+									 
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/viewpaybills.htm')">
+											View/Pay Bills 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/viewbiller.htm')">
+											Manage Biller 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/sbilifepaymentinitial.htm')">
+											SBI  Life Premium 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/mobiletopup.htm')">
+											Topup Recharge 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/sbigirenewalhome.htm')">
+											SBI General Premium 
+								      	</a>
+								      </li>		                        
+			                         	
+			                         <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/billpaymentslanding.htm')" > More>>										
+								      	</a>
+								      </li>			                                
+									</ul>
+								</li>								
+						</ul>
+						
+				</li>
+			
+					
+						
+					
+				
+				
+								
+		         <li id="tab_4" class="dropdown">
+		         	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/fixeddepositlanding.htm')" data-hover="dropdown" class="dropdown-toggle">
+		            	<span id="icon_menu_fixed" class="hidden-xs"></span> 
+							Fixed Deposit 
+		            </a>							
+															
+					
+						<ul class="dropdown-menu mega-menu">
+							<li class="mega-menu-column">
+								<ul class="mega-sub-menu">									
+									 
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/viewfixeddeposit.htm')">
+											e-TDR / e-STDR (FD) 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/viewrecurringdeposit.htm')">
+											e-RD (RD) / e-SBI Flexi Deposit 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/fixeddepositannuity.htm')">
+											e-Annuity Deposit 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/tdsEnquiry.htm')">
+											TDS Enquiry 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/odclosureagainsttdrinitiate.htm')">
+											Closing Overdraft against TDR  
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/downloadform16Ainitiate.htm')">
+											Download Form 16A  
+								      	</a>
+								      </li>		                        
+			                         	
+			                         <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/fixeddepositlanding.htm')" > More>>										
+								      	</a>
+								      </li>			                                
+									</ul>
+								</li>								
+						</ul>
+						
+				</li>
+			
+					
+						
+					
+				
+				
+								
+		         <li id="tab_5" class="dropdown">
+		         	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/etaxlanding.htm')" data-hover="dropdown" class="dropdown-toggle">
+		            	<span id="icon_menu_tax" class="hidden-xs"></span> 
+							e-Tax 
+		            </a>							
+															
+					
+						<ul class="dropdown-menu mega-menu">
+							<li class="mega-menu-column">
+								<ul class="mega-sub-menu">									
+									 
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/stategovt.htm')">
+											State Govt. Taxes 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/indirecttaxdisplay.htm')">
+											Indirect Taxes 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/directtaxdisplay.htm')">
+											Direct Taxes 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/taxcreditstatement.htm')">
+											View Tax Credit Statement (Form 26AS) 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/reissuechallaninput.htm')">
+											Reprint Challan/Receipt 
+								      	</a>
+								      </li>		                        
+			                         	
+			                         <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/etaxlanding.htm')" > More>>										
+								      	</a>
+								      </li>			                                
+									</ul>
+								</li>								
+						</ul>
+						
+				</li>
+			
+					
+						
+					
+				
+				
+								
+		         <li id="tab_6" class="dropdown">
+		         	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/eserviceslanding.htm')" data-hover="dropdown" class="dropdown-toggle">
+		            	<span id="icon_menu_eservice" class="hidden-xs"></span> 
+							e-Services 
+		            </a>							
+															
+					
+						<ul class="dropdown-menu mega-menu">
+							<li class="mega-menu-column">
+								<ul class="mega-sub-menu">									
+									 
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/aadharRegCifLanding.htm')">
+											Update Aadhaar with Bank accounts(CIF) 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/changelimitatmpage.htm')">
+											ATM Card Services 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/ecardlandingpage.htm')">
+											e-Cards 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/certificatelandingpage.htm')">
+											Certificates 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/socialsecuritylanding.htm')">
+											Social Security Schemes (PMJJBY / PMSBY / APY) 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/panregistration.htm')">
+											PAN Registration 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/ckacreateinitial.htm')">
+											Cox and Kings 
+								      	</a>
+								      </li>		                        
+			                         	
+			                         <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/eserviceslanding.htm')" > More>>										
+								      	</a>
+								      </li>			                                
+									</ul>
+								</li>								
+						</ul>
+						
+				</li>
+			
+					
+						
+					
+				
+				
+								
+		         <li id="tab_7" class="dropdown">
+		         	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/requestandenqurieslanding.htm')" data-hover="dropdown" class="dropdown-toggle">
+		            	<span id="icon_menu_erequest" class="hidden-xs"></span> 
+							Request & Enquiries 
+		            </a>							
+															
+					
+						<ul class="dropdown-menu mega-menu">
+							<li class="mega-menu-column">
+								<ul class="mega-sub-menu">									
+									 
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/addsi.htm')">
+											Standing Instruction 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/chequebookdisplay.htm')">
+											Cheque Book request 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/stopchequepayment.htm')">
+											Stop Cheque Payment 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/newppfaccount.htm')">
+											New PPF Account 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/enquirytransactionstatment.htm')">
+											Find Transactions 
+								      	</a>
+								      </li>		                        
+			                         	
+			                         <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/requestandenqurieslanding.htm')" > More>>										
+								      	</a>
+								      </li>			                                
+									</ul>
+								</li>								
+						</ul>
+						
+				</li>
+			
+					
+						
+					
+				
+				
+								
+		         <li id="tab_8" class="dropdown">
+		         	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/usefullinkslanding.htm')" data-hover="dropdown" class="dropdown-toggle">
+		            	<span id="icon_menu_links" class="hidden-xs"></span> 
+							Useful Links 
+		            </a>							
+															
+					
+						<ul class="dropdown-menu mega-menu">
+							<li class="mega-menu-column">
+								<ul class="mega-sub-menu">									
+									 
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/sbiExclusif.htm')">
+											SBI Exclusif 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/mySbiWorld.htm')">
+											My SBI World 
+								      	</a>
+								      </li>		                        
+			                          
+								      <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/sitemap.htm')">
+											Site Map 
+								      	</a>
+								      </li>		                        
+			                         	
+			                         <li>
+								      	<a href="javascript:void(0);" onclick="javascript:callURL('/retail/usefullinkslanding.htm')" > More>>										
+								      	</a>
+								      </li>			                                
+									</ul>
+								</li>								
+						</ul>
+						
+				</li>
+			
+					
+						
+				
+		
+		</ul>
+
+		</div>
+	</nav>
+	
+	<!-- User Details -->
+		<div id="wpanel_users">
+			<div class="col-sm-2 wpanel_time">
+				<span>21-Sep-2018 [05:28 PM IST]</span>
+			</div>
+			<div class="col-sm-7">
+				<div class="wpanel_marquee">
+					
+				
+				<p>
+                 
+                          <font color="Maroon">Please ensure the following before logging into onlinesbi for making transactions - The URL in your browser address bar begins with https; with padlock symbol 
+and turns green indicating that the site is secured with an SSL certificate. </font>| 
+				
+                          <font color="orange">Please notify any unauthorised electronic transaction on 1-800-425-3800/1-800-11-2211 immediately. Longer the time taken to notify, higher would be the risk of loss to you. </font>| 
+				
+				</p>
+									
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-3" id="wpanel_userdetails">
+				<div class="col-sm-12">
+					<div id="wpanel_username">
+						<h2>Welcome</h2>
+						<h3>Mr. VIBHANSHU  CHHANGANI</h3>
+					</div>
+				</div>
+					
+			</div>
+		</div>
+	<!-- //User Details -->
+</div>
+<!-- //Navigation -->
+
+<!-- New TAB Navigation  Ends -->
+ 
+	</div>	
+	<!-- Top Navigation TABS and Links-->
+		
+	<div class="row main_area">
+		<div class="col-lg-2 col-md-2 col-sm-2 col-comn">
+		
+			<!-- Left Navigation -->
+			
+
+
+
+
+<!-- added by durgadevi for hindi changes starts-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<!-- Added by Sailaja Starts -->
+
+
+
+
+
+
+<!-- Added for Offer Changes Mobile View CR Starts -->
+
+
+<!-- Added for Offer Changes Mobile View CR Ends -->
+
+<!-- Left Navigation -->
+	<!-- Quick Links Starts -->
+	<div class="quick_heading hidden-xs ql_dropdown">
+		<h2 class="pull-left">Quick Links</h2>
+		<div class="pull-right">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</div>
+		<div class="ql_dropdown_content">
+				<a href="javascript:void(0);" onclick="javascript:callURL('/retail/accountstatement.htm')">Account Statement</a>
+				<a href="javascript:void(0);" onclick="javascript:callURL('/retail/viewpaybills.htm')">Bill Payments</a>
+				<a href="javascript:void(0);" onclick="javascript:callURL('/retail/fundstransfer.htm')">Funds Transfer(Own A/c)</a>
+<!-- 				<a href="pt_thirdPartyTransfer.html">Third Party Transfer</a> -->				
+				<a href="javascript:void(0);" onclick="javascript:callURL('/retail/managebeneficiary.htm')">Manage Beneficiary</a>
+		</div>	
+	</div>	
+	<!-- Quick Links Ends-->
+				
+				<div class="left_menu_slider">
+					<ul id="quick_links_nh">
+													
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							   
+																										
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/mypage.htm')" class="selected">
+										Account Summary 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/accountstatement.htm')" class="">
+										Account Statement 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/coreaccountstatement.htm')" class="">
+										Pending Statement 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/spendanalysis.htm')" class="">
+										Spend Analyzer 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/changeloginpwdotp.htm')" class="">
+										Change Login Password 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/freedomrewardzpoints.htm')" class="">
+										SBI Rewardz 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  
+							  <!-- Link contains sublink, Link hyperlink is removed --> 																							
+							  							  
+																											
+																											
+								
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/profilelandingpage.htm')" class="mlinktrig hidden-lg hidden-md hidden-sm">
+										Profile
+									</a>
+									<span class="mlinktrig-caret hidden-lg hidden-md hidden-sm glyphicon glyphicon-triangle-right"></span>
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/profilelandingpage.htm')" class="hidden-xs">
+										Profile          
+										<span class="caret hidden-xs"></span>
+									</a>	
+									
+									 
+																										
+								    
+									 <ul id="quick_links_sub">
+									 
+										 
+									
+										 
+									
+										 
+									
+										 
+									
+										 
+									
+										 
+									
+										 
+									
+										 
+									
+										 
+									
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/myprofile.htm')" >
+												My Profile 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/personaldetails.htm')" >
+												Personal Details / Mobile 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/profilesetaccountnickname.htm')" >
+												Set Account Nickname 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/changeloginpassword.htm')" >
+												Change Passwords 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/ipoaddnewapplicant.htm')" >
+												Manage IPO Applicant 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/profiledefinelimit.htm')" >
+												Define Limit 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/enablehighsecuritylvt.htm')" >
+												High Security Options 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/viewbeneficiarybranch.htm')" >
+												Beneficiary Activation by Branch 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/iratastatus.htm')" >
+												IRATA Ref. No. Status 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/managebeneficiary.htm')" >
+												Manage Beneficiary 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/showmaskableaccount.htm')" >
+												Manage A/c Display 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/panregistration.htm')" >
+												PAN Registration 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/updateemailid.htm')" >
+												Update Email ID 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/aadharRegLanding.htm')" >
+												Link account for Aadhaar/LPG subsidy 
+											</a> 
+											</li>
+										 
+									
+										 
+											<li>
+												 	
+											  
+										<a href="javascript:void(0);" onclick="javascript:callURL('/retail/smsalertlanguage.htm')" >
+												Set SMS Language 
+											</a> 
+											</li>
+										 
+									
+									</ul> 									
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/eStatementinitial.htm')" class="">
+										e-Statement 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/customerSegmentationationinit.htm')" class="">
+										Select your Segment 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/creditscoreinitial.htm')" class="">
+										Know your CIBIL Score 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+												
+						<!-- Added by Sailaja for insta topup changes -->
+						
+						
+													
+							
+									
+								
+															
+							<li>								
+							  
+							  
+							
+							  							  
+																											
+								
+									<!-- No SubLinks -->  
+									<a href="javascript:void(0);" onclick="javascript:callURL('/retail/aadharRegCifLandingacc.htm')" class="">
+										Update Aadhaar with Bank accounts(CIF) 
+									</a>	 								
+																											
+								
+							
+							</li>
+						
+					
+					</ul>
+				</div>
+				
+				<div id="left_slider_button" class="hidden-lg hidden-md hidden-sm">
+					<span id="icon_leftdrag"></span>
+				</div>
+				
+			<div id="notifications" class="carousel slide" data-ride="carousel">
+					<!-- Carousel indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#notifications" data-slide-to="0" class="active"></li>
+						<li data-target="#notifications" data-slide-to="1" class=""></li>
+						<!-- Added for Offer Changes Mobile View CR Starts -->
+						
+						
+						<!-- Added for Offer Changes Mobile View CR Ends -->
+					</ol>
+					<!-- //Carousel indicators -->
+					
+					<!-- Wrapper for carousel items -->
+					<div class="carousel-inner">
+					 
+						<div class="item active">
+							 
+							<h3>OFFERS</h3>
+							<p>SBI Car Loan : Walk In, Drive out
+					  					  <a href="#" onClick="javascript:window.open('http://www.sbi.co.in/portal/web/personal-banking/car-loan', '', 'width=1050,height=750,status=1, scrollbars=1, location=0')" > Know More</a></p>
+							
+						</div>
+						
+						<div class="item">
+							<h3>OFFERS</h3>
+							<p>Know your PPF loan and withdrawal eligibility  <a href="#"  onClick="javascript:proceedForPPF();">Click Here</a></p>
+						</div>
+						<!-- Added for Offer Changes Mobile View CR Starts -->
+						
+						
+						<!-- Added for Offer Changes Mobile View CR Ends -->
+					</div>
+					<!-- //Wrapper for carousel items -->
+				</div>
+				
+	<script type="text/javascript">
+	
+//Added by anusha for ppf starts           
+            function proceedForPPF(){
+			document.forms[0].action="popularppfinitial.htm";
+			document.forms[0].submit();
+		       }
+//Added by anusha for ppf ends		   
+	</script>	
+			<!-- Left Navigation -->			
+		</div>
+		
+		<div class="col-lg-10 col-md-10 col-sm-10 col-right">
+		
+			<!-- Breadcrumb starts-->			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+<!-- Breadcrumb -->
+				<div id="crumb">
+					<ul class="breadcrumb"> 
+						<li>You are here:</li>						
+						
+						
+ 						<li>
+ 							<a href="javascript:void(0);" onclick="javascript:callURL('/retail/myaccountsandprofilelanding.htm')">
+								My Accounts & Profile 
+ 							</a>
+ 						</li> 
+ 						
+ 						 						
+ 								<li class="active">
+								Account Summary  								
+ 								</li>
+ 						
+ 						
+ 						
+ 					</ul> 
+				</div> 
+<!-- //Breadcrumb -->
+
+			<!-- Breadcrumb ends-->
+			
+					
+							
+				
+					<!-- Link/Sublink without body tabs -->	
+					<!-- Body Content -->
+							
+   	 
+  	
+  
+ 
+
+
+
+
+<script language="JavaScript" type="text/javascript" src="/sbijava/retail/js/sbi.js"></script>   
+<script language="JavaScript" type="text/javascript" src="/sbijava/retail/js/sbiValidation.js"></script>
+
+
+
+<!--  added for CR 5276 -->
+
+
+
+<form name="quickLookForm" method="post" action="quicklook.htm"> 
+		<input type=hidden name="accountNo" id="accountNo" value=""/> 
+	    <input type=hidden name="branchCode" id="branchCode" value=""/>
+	    <input type="hidden" name="page" id="page" value="back" />         						
+</form> 
+<form name="quickLookFormforBack" method="post">
+
+	<div class="content_panel">
+
+		<div class="content_heading">
+			<h3>
+				<span id="icon_asset"></span>Nomination and PAN Details
+			</h3>
+		</div>
+
+		<div class="content_area table_scrl">
+			<table class="table table-striped table-hover btm_pad" id='tblDeposit'>
+			
+			
+			
+				<thead>
+					<tr>
+						<th>Account No</th>
+						<th>CIF Number</th>
+						<th>Nominee Registered(Yes/No)</th>
+						<th>PAN Registered</th>
+					</tr>
+				</thead>
+				<tbody>
+				
+				
+				
+					<tr id="dr1">
+						<td>00000061018062816</td>
+						<td>71008589634</td>
+						<td>No</td>
+						
+						<td><a href="javascript:void(0);" onclick="javascript:callURL('/retail/panregistration.htm')">Click here to register</a></td>
+						
+						
+					</tr>
+				
+				</tbody>
+			</table>
+		</div>
+		<div class="common_btn text-center">
+			<!-- <button type="reset" class="btn btn-default" onclick="submitBack(this.form.name,'accountinformation.htm');">Back</button> -->
+			<input name="Button" id="Submit" type="button" class="btn btn-default" value="Back"  onClick="submitBack(this.form.name,'accountinformation.htm');">
+		</div>
+	</div>
+	<div class="info_panel">
+		<div class="notify_icon">
+			<ul>
+				<li>If your PAN is not registered, kindly register by clicking on the PAN registration link.</li>				
+			</ul>
+		</div>
+	</div>
+<input type="hidden" name="t1qt" id="t1qt" value="0asbdh97o2mjdbq4tg4bgj83enp8p0ua" />
+</form>
+
+<form name="coreMessageStatus" action="updatecoremessage.htm" method="post">
+	
+<input type="hidden" name="t1qt" id="t1qt" value="0asbdh97o2mjdbq4tg4bgj83enp8p0ua" />
+</form>
+
+<!-- added for CR 5276 - begin -->
+<form name="frmUpdateTempAddress" id="frmUpdateTempAddress" methweod="post" action="updatetempaddressdisplay.htm">
+<input type="hidden" name="t1qt" id="t1qt" value="0asbdh97o2mjdbq4tg4bgj83enp8p0ua" />
+</form>
+<!-- added for CR 5276 - end -->
+
+<script language="javascript">
+
+  //added for CR 5276 - begin 
+  function updateTempAddress(){
+  	document.frmUpdateTempAddress.submit();	
+  }
+  //added for CR 5276 - end
+  
+		function submitBack(formname,action)
+	{
+	document.getElementById('Submit').disabled = true;
+	var test=eval("document."+formname);
+	test.action=action;
+	test.submit();
+	}
+
+	function submitQuickLookDetailsForm(accountNo,branchCode,accountStatus){
+		if(accountStatus!=null && accountStatus == 'DISC'){
+			alert("The account seems to be 'Closed' as per bank's record, it will be reflected in closed account list");
+		}
+			document.quickLookForm.accountNo.value = accountNo;
+			document.quickLookForm.branchCode.value = branchCode;
+	 		document.quickLookForm.submit();
+	}
+		
+</script>
+					<!-- Body Content -->
+				
+			
+			
+		</div>
+	</div>
+
+	<!-- Footer starts here -->
+	<div class="row" id="footer">
+		
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<!-- Footer -->
+	<footer id="footerContent">
+		<div id="footer_area">		
+			<div class="col-lg-12 col-md-12 col-sm-12">
+				<ul id="footer_links" class="pull-right hidden-xs">
+					
+											
+							
+							<li>
+							<a href="#" onclick="window.open('/sbijava/retail/html/Privacy_Statement.html','aboutus','width=780, height=500, status=1, scrollbars=1, location=0')">Privacy Statement</a>										
+							</li>
+							<li>
+							<a href="#" onclick="window.open('/sbijava/retail/html/hmpg_disclosure.html','aboutus','width=780, height=500, status=1, scrollbars=1, location=0')">Disclosure </a>			
+							</li>
+							<li>
+							<a href="#" onclick="window.open('/sbijava/retail/html/Terms_of_Use.html','aboutus','width=780, height=500, status=1, scrollbars=1, location=0')">Terms of Service(Terms & Conditions) </a>	
+							</li>							
+						
+						
+									
+				</ul>
+			</div>
+		</div>
+				
+		<div class="footbg" id="best_view">
+			<div class="col-sm-4">
+				<p class="pull-left">&copy; State Bank of India</p>
+			</div>
+			<div class="col-sm-8">
+				<p class="pull-right">Site best viewed at 1024 x 768 resolution in I.E 10 +, Mozilla 35 +, Google Chrome 35 +</p>
+			</div>
+		</div>
+		
+	</footer>
+<!-- //Footer -->
+
+
+ <input type='hidden' value='0' id='bankcodeValue'>
+ 
+	</div>	
+	<!-- Footer ends here -->	
+	
+	<!-- Right Panel starts here -->
+		
+
+
+
+
+
+	
+	<!--Added by durgadevi for hindi changes  -->
+
+    <!--Added by durgadevi for hindi changes  -->
+    
+        
+		<form id="executefavoritesForm" name="executefavoritesForm" method="post" action="executefavorite.htm">
+		<input type=hidden name="refreshRandom" value=""/>
+		
+		
+    
+ 
+ 
+
+ 
+ 
+  <script type="text/javascript">
+  function getXMLDataRetail(xmlPath, testMsg){
+	  
+	   $.ajax({
+                      type: "POST",
+                      url: xmlPath,
+                      dataType: "xml",
+                      success: function(xml){
+                                      $(xml).find('messages').each(function(){
+                                    	        var tod_link = $(this).find('link').find(testMsg).text();
+                                    	 		$('#tod_title').text($(this).find('title').find(testMsg).text());
+                                          		$('#tod_msg').text($(this).find('message').find(testMsg).text());
+                                          		if(tod_link.contains('.htm')){
+                                          		$('#tod_link').attr("href","javascript:void(0);");	
+                                          		$('#tod_link').attr("onclick","javascript:callURL('"+$(this).find('link').find(testMsg).text()+"');");
+                                          		}
+                                          		else if(tod_link=='trans_rights_popup')
+                                          	  	{
+                                          		  $('#tod_link').attr("href","javascript:void(0);");	
+                                          		  $('#tod_link').attr("onclick","javascript:AlertFun('tr');");
+                                             	}
+                                          		else if(tod_link=='virtualkeyboard')
+                                                {
+                                          			$('#tod_link').attr("href","javascript:void(0);");
+	                                          		$('#tod_link').attr("onclick","javascript:AlertFun('vkb');");
+	                                          	}
+	                                          	else if(tod_link=='khata/khataPlus')
+	                                          	{
+	                                          		$('#tod_link').attr("href","javascript:void(0);");
+	                                          		$('#tod_link').attr("onclick","javascript:AlertFun('kkp');");
+	                                            }
+                                          		else{
+                                          			$('#tod_link').attr("href",tod_link);
+                                          		}
+                                      });
+                      },
+                      error: function() {
+                                     // alert("An error occurred while processing XML file.");
+                      }
+      });
+}
+
+                  var xmlPath = "/sbijava/retail/xml/contextual.xml";
+                  var testMsg ='bp';   
+                  getXMLDataRetail(xmlPath,testMsg); 
+
+function AlertFun(choice)
+{
+    if(choice=='tr' || choice=='kkp')
+    	{
+    		alert("Please approach your branch");
+    	}
+    if(choice=='vkb')
+	    {
+			
+		}  
+     return false;
+}
+</script>
+  
+   
+
+<div id="right_pan">
+
+	<!-- Tip of the day starts here -->
+	<div class="col-md-2 tod_links">
+		<div class="tod_head">
+				<h5>Tip of the day</h5>				
+		</div>
+		<div class="tod_content">
+		
+				<h6 id="tod_title"></h6> 
+				<p  id="tod_msg"></p>
+				
+				
+				<a href="#" title="TOD" id="tod_link">Click here</a>
+		</div>
+     </div>
+     <!-- Tip of the day ends here -->
+     	
+     	<!-- Recent Activities starts here -->
+	<div class="col-md-2 mroa_links">
+			<div class="mroa_head">
+				<h5>My Recent online activities</h5>
+	
+		</div>
+		<div class="mroa_content">
+		
+				   	 
+					
+					<h6>Last login password change:</h6>
+					<p>
+					17-Sep-2017 12:57 IST</p>
+		 			
+		
+  								
+		
+		<h6>Previous site visit:</h6>
+		<p>
+		21-Sep-2018 16:33 IST</p>
+	
+									       
+ 		
+		<h6>Last failed login attempt:</h6>
+		<p>
+		30-Aug-2018 11:29 IST</p>
+    
+    
+ 
+	
+	
+		</div>
+     </div>	
+     <!-- Recent Activities ends here -->
+     
+     <!-- Important_Links starts here -->
+	<div class="col-md-2 imp_links">
+		<div class="imp_links_head">
+			<h5>Important Links</h5> 
+			
+		</div>
+		<div>
+			<ul>
+				<li> <a href="# " onclick="window.open('/personal/productandservices.html','productservice','width=780, height=500, status=1, resizable=1,scrollbars=1, location=0');return false;" title="Clik here">Products and Services</a></li>	
+				<li><a href="https://retail.onlinesbi.com/personal/rinb_videos.html" target="_blank" title="Clik here">Help</a></li>
+				<li><a href="#"  onclick="window.open('http://www.sbi.co.in/portal/web/interest-rates/deposit-rates','SBIGeneralInsurance','width=780, height=500 ,status=1, scrollbars=1, location=1 resizable=1')" title="Clik here">Rates</a></li>
+				<li><a href="#" onclick="window.open('/personal/reg_forms.html','productservice','width=780, height=500, status=1, resizable=1,scrollbars=1, location=0');return false;" title="Clik here">Forms</a></li>
+				<li><a href="javascript:void(0);" onclick="javascript:callURL('/retail/sitemap.htm')" title="Clik here">Site Map</a></li>
+			</ul>
+		</div>
+     </div>	
+      <!-- Important_Links ends here -->
+	 
+	  <!-- Manage Beneficiary starts here -->
+	<div class="col-md-2 mbenefit_links">
+		<div class="mbenefit_links_head">
+			<h5>Manage Beneficiary</h5>
+		</div>
+		<div>
+			<ul>
+				<li><a href="javascript:void(0);" onclick="javascript:callURL('/retail/managebeneficiary.htm')" title="SBI">SBI Beneficiary</a></li>
+				<li><a href="javascript:void(0);" onclick="javascript:callURL('/retail/addinterbankbeneficiary.htm')" title="Other">Other Bank Beneficiary</a></li>
+			</ul>
+		</div>	
+	</div>
+	 <!-- Manage Beneficiary ends here -->
+	  <!-- Favourites starts here -->
+	<div class="col-md-2 favourites_link">
+		<div class="favourites_link_head">
+			<h5>Favourites</h5>
+		</div>
+		<div>
+						
+								<ul>
+									<li><a href="javascript:void(0);" onclick="javascript:callURL('/retail/aboutfavorite.htm')">--Manage Favourite--</a><li>
+										
+										  
+									     <input type="hidden" id="favoriteNickName" name="favoriteNickName" value=""/>
+									  
+							
+			</ul>
+		</div>	
+	</div> 
+	 <!-- Favourites ends here -->
+	 
+</div>
+<input type="hidden" name="t1qt" id="t1qt" value="0asbdh97o2mjdbq4tg4bgj83enp8p0ua" />
+</form>
+ <script type="text/javascript">
+
+    function executeFavoritesSubmit(favoriteKey){
+    	//var nickName =  document.executefavoritesForm.favoriteSelect.value;
+    	document.executefavoritesForm.refreshRandom.value=Math.random()*101;
+    	    document.executefavoritesForm.favoriteNickName.value=favoriteKey;
+//     		document.executefavoritesForm.action="executefavorite.htm";
+    		document.executefavoritesForm.submit();
+    	
+    } 
+
+</script>  
+
+
+
+		<!-- Right Panel ends here -->
+</div>
+<!-- Wrapper ends here -->
+
+<!--SINB-6674: Enabling of High Security Options Change starts umapriya--> 
+
+  
+<!--SINB-6674: Enabling of High Security Options Change ends umapriya--> 
+
+
+
+ 
+
+
+
+<!-- Feedback Popup starts here -->
+			<!-- FB Modal -->
+			
+			<!-- <div class="modal fade in" id="fbModal" role="dialog" style="padding-right: 12px; display: block;"> -->
+					 <div class="modal fade" data-backdrop="static" id="fbModal" role="dialog" style="padding-right: 12px;">
+						<div class="modal-dialog">
+						
+						<!-- Modal content-->
+						  <div class="modal-content">
+							 
+							
+									
+								<!-- FAQ Content -->
+								
+									<div class="row fb-bg">
+							
+										<h4 class="modal-title">FEEDBACK FORM</h4>
+									
+										<div class="col-lg-12 col-md-12 col-sm-12">
+											<form name="feedbackform" id="star_rate" action="feedbackform.htm" method="post">
+											<input type="hidden" name="browserName" id="browserName" value="" />
+											
+											
+											<h5>How do you rate the look and feel of the new website?</h5>
+                            				
+											<div class="row">
+												<span class="starRating">
+													<input name="rating_QUESTION_1" class="excellent" id="rating5" type="radio" value="5">
+													<label class="goodStar" onmouseover="showStars($(this),'excellentStar');" onmouseout="dshowStars($(this),'excellentStar');" for="rating5">5</label>
+													<input name="rating_QUESTION_1" class="vgood" id="rating4" type="radio" value="4">
+													<label class="goodStar" onmouseover="showStars($(this),'vgoodStar');" onmouseout="dshowStars($(this),'vgoodStar');" for="rating4">4</label>
+													<input name="rating_QUESTION_1" class="good" id="rating3" type="radio" value="3">
+													<label class="goodStar" onmouseover="showStars($(this),'goodStar');" onmouseout="dshowStars($(this),'goodStar');" for="rating3">3</label>
+													<input name="rating_QUESTION_1" class="fair" id="rating2" type="radio" value="2">
+													<label class="goodStar" onmouseover="showStars($(this),'fairStar');" onmouseout="dshowStars($(this),'fairStar');" for="rating2">2</label>
+													<input name="rating_QUESTION_1" class="poor" id="rating1" type="radio" value="1">
+													<label class="goodStar" onmouseover="showStars($(this),'poorStar');" onmouseout="dshowStars($(this),'poorStar');" for="rating1">1</label>
+												</span>
+												<span>&nbsp;</span>
+											</div>
+																
+												
+											
+											<h5>How do you rate the ease of navigation under new website?</h5>
+                            				
+											<div class="row">
+												<span class="starRating">
+													<input name="rating_QUESTION_2" class="excellent" id="rating10" type="radio" value="5">
+													<label class="goodStar" onmouseover="showStars($(this),'excellentStar');" onmouseout="dshowStars($(this),'excellentStar');" for="rating10">10</label>
+													<input name="rating_QUESTION_2" class="vgood" id="rating9" type="radio" value="4">
+													<label class="goodStar" onmouseover="showStars($(this),'vgoodStar');" onmouseout="dshowStars($(this),'vgoodStar');" for="rating9">9</label>
+													<input name="rating_QUESTION_2" class="good" id="rating8" type="radio" value="3">
+													<label class="goodStar" onmouseover="showStars($(this),'goodStar');" onmouseout="dshowStars($(this),'goodStar');" for="rating8">8</label>
+													<input name="rating_QUESTION_2" class="fair" id="rating7" type="radio" value="2">
+													<label class="goodStar" onmouseover="showStars($(this),'fairStar');" onmouseout="dshowStars($(this),'fairStar');" for="rating7">7</label>
+													<input name="rating_QUESTION_2" class="poor" id="rating6" type="radio" value="1">
+													<label class="goodStar" onmouseover="showStars($(this),'poorStar');" onmouseout="dshowStars($(this),'poorStar');" for="rating6">6</label>
+												</span>
+												<span>&nbsp;</span>
+											</div>
+																
+												
+											
+											<h5>How would you rate the ease of use in performing banking operations?</h5>
+                            				
+											<div class="row">
+												<span class="starRating">
+													<input name="rating_QUESTION_3" class="excellent" id="rating15" type="radio" value="5">
+													<label class="goodStar" onmouseover="showStars($(this),'excellentStar');" onmouseout="dshowStars($(this),'excellentStar');" for="rating15">15</label>
+													<input name="rating_QUESTION_3" class="vgood" id="rating14" type="radio" value="4">
+													<label class="goodStar" onmouseover="showStars($(this),'vgoodStar');" onmouseout="dshowStars($(this),'vgoodStar');" for="rating14">14</label>
+													<input name="rating_QUESTION_3" class="good" id="rating13" type="radio" value="3">
+													<label class="goodStar" onmouseover="showStars($(this),'goodStar');" onmouseout="dshowStars($(this),'goodStar');" for="rating13">13</label>
+													<input name="rating_QUESTION_3" class="fair" id="rating12" type="radio" value="2">
+													<label class="goodStar" onmouseover="showStars($(this),'fairStar');" onmouseout="dshowStars($(this),'fairStar');" for="rating12">12</label>
+													<input name="rating_QUESTION_3" class="poor" id="rating11" type="radio" value="1">
+													<label class="goodStar" onmouseover="showStars($(this),'poorStar');" onmouseout="dshowStars($(this),'poorStar');" for="rating11">11</label>
+												</span>
+												<span>&nbsp;</span>
+											</div>
+																
+												
+												<input type="hidden" name="t1qt" id="t1qt" value="0asbdh97o2mjdbq4tg4bgj83enp8p0ua" />
+											</form>
+											
+											<div class="common_btn text-center">
+																					
+												<button class="btn btn-default" onclick="submitFeedback(this.form);" type="submit">Submit</button>
+												<button class="btn btn-default" onclick="rejectFeedback(this.form);" type="button" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								
+								<!-- //FAQ Content -->
+							 
+						  </div>
+						  
+						</div>
+					  </div>
+					<!-- FB Modal -->
+
+ <script type="text/javascript">
+               var message="This function is not allowed here.";
+               function clickIE4(){
+
+                             if (event.button==2){
+                             alert(message);
+                             return false;
+                             }
+               }
+
+               function clickNS4(e){
+                             if (document.layers||document.getElementById&&!document.all){
+                                            if (e.which==2||e.which==3){
+                                                      alert(message);
+                                                      return false;
+                                            }
+                                    }
+               }
+
+               if (document.layers){
+                             document.captureEvents(Event.MOUSEDOWN);
+                             document.onmousedown=clickNS4;
+               }
+
+               else if (document.all&&!document.getElementById){
+                             document.onmousedown=clickIE4;
+               }
+
+               document.oncontextmenu=new Function("alert(message);return false;")
+               
+               function newPopup(url) {
+           		popupWindow = window.open(
+           			url,'popUpWindow','height=350,width=810,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes');
+           	}
+</script>
+
+
+
+<!-- POPUP - EMAIl UPDATE Starts-->
+<script type="text/javascript">
+
+function emailPopup(emailFlag){
+	var username="chhanganisab";
+	var redirectUrl="updateEmailPopupAction.htm";
+	if(emailFlag=="Yes"){
+		redirectUrl="confirmforceemailupdate.htm";		
+	}
+	
+	$.ajax({
+		type: "POST",
+	     url: redirectUrl,
+	     dataType: "text",
+	     data: { "emailFlag": emailFlag, "username": username},
+	     success:function(result)
+	     {	  
+	         if (result.indexOf("updateemailid") >= 0 && emailFlag=='U')
+			 {
+	        	$("#dialog").hide();
+			   	var stringVariable = window.location.href;
+			    var text = stringVariable.substring(0, stringVariable.lastIndexOf('/'));
+			    document.logoutform.action = "updateemailid.htm";
+			    document.logoutform.submit();
+			 }else if(emailFlag=="Later") {				 
+				 $("#dialog").modal('hide');
+			 }else{	        	
+	            if(result.indexOf("success") >= 0){        		
+	            	$('.emailMsg').hide();
+	        		$('.emailSuccess').show();
+	            	$('.emailFailure').hide();
+	            	
+	        	} else {
+	        		$('.emailMsg').hide();
+	        		$('.emailSuccess').hide();
+	            	$('.emailFailure').show();
+	        	} 	
+	        	
+	         }
+	     },
+	     error:function(result){	    
+	    	 $('.emailMsg').hide();
+	    	 $('.emailSuccess').hide();
+         	 $('.emailFailure').show();
+	     }
+	});	
+
+}
+/* SINB-6674: Enabling of High Security Options Change starts umapriya */
+
+
+function highsecurityPopup(form){
+	
+	
+	 
+		
+	
+
+	
+	var username="chhanganisab";
+	var redirectUrl="updateOTPPopupFlag.htm";   
+	$.ajax({
+		type: "POST",
+	     url: redirectUrl,
+	     dataType: "text",
+	     data: { "username": username},
+	     success:function(result)
+	     {	  
+	            if(result.indexOf("success") >= 0){  
+	            	$("#dialog").hide();
+				   	var stringVariable = window.location.href;
+				    var text = stringVariable.substring(0, stringVariable.lastIndexOf('/'));
+				  //  window.location = text+"/mypage.htm";
+				    document.testform.action = "mypage.htm";
+				    document.testform.submit();
+	         }
+	     },
+	     error:function(result){	    
+	    	 $('.enablehighsecurityMsg').hide();
+	    	 $('.enablehighsecuritySuccess').hide();
+         	/*  $('.enablehighsecurityFailure').show(); */
+	     }
+	});	
+	  
+		
+		
+
+}
+function highSecurityPagePopup(form){
+
+	document.testform.action = "enablehighsecuritylvt.htm";
+	document.testform.submit();
+}
+
+
+/* SINB-6674: Enabling of High Security Options Change ends umapriya */
+
+$(document).ready(function(){
+        $("#dialog").modal('show');
+        $("#dialog1").modal('show');
+        $('.emailFailure').hide();
+     	$('.emailSuccess').hide();
+});
+</script>
+
+<!-- POPUP - EMAIl UPDATE Ends-->
+<!-- POPUP Anywhere sbi Starts -->
+<script type="text/javascript">
+    $(window).load(function(){
+        $('#myModal').modal('show');
+    });
+</script>
+<!-- POPUP Anywhere sbi Ends -->
+
+	<script type="text/javascript">	
+	function submitFeedback(formObj)
+	 {
+		
+	 for(var i = 1 ; i <= 3 ; i++)
+	  {
+	      var radios = document.getElementsByName('rating_QUESTION_'+i);
+	      var checked = false;
+	      for (var j = 0, length = radios.length; j < length; j++) 
+	      {
+
+	         if (radios[j].checked) 
+	         {
+	          checked = true;
+	          break;
+	         }
+
+	       }
+	       if(!checked)
+	       {
+	         alert('Please answer question '+i);
+	        return false;
+	       }
+	}
+	 
+	 document.getElementById("browserName").value = navigator.userAgent;
+	 document.feedbackform.action = "feedbackform.htm";
+	 document.feedbackform.submit();
+		 
+	 } 	 
+	 function rejectFeedback()
+	 {
+		 document.getElementById("browserName").value = navigator.userAgent;
+		 document.feedbackform.action = "feedbackreject.htm";
+		 document.feedbackform.submit();
+	 }
+	</script>
+	
+
+<script type="text/javascript">
+function logout()
+{
+	$('#logoutform').attr('action', 'logout.htm');
+	$('#logoutform').submit();
+}
+
+function callURL(url)
+{
+	$('#logoutform').attr('action', url);
+	$('#logoutform').submit();
+}
+
+</script>
+
+<script type="text/javascript">
+
+$(document).ready(function () {
+	
+	//Disable full page
+   $("body").on("contextmenu",function(e) {
+      return false;
+  });
+	
+   function disableBack() { window.history.forward() }
+
+    window.onload = disableBack();
+    window.onpageshow = function(evt) { if (evt.persisted) disableBack() }
+});
+
+</script>
+
+	
+	</body>
+
+<form name="logoutform" id="logoutform" method="post" action="" >
+<input type="hidden" name="t1qt" id="t1qt" value="0asbdh97o2mjdbq4tg4bgj83enp8p0ua" />
+</form>
+
+
+</html> 
